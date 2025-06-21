@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <style>
+    .text { font: bold 24px sans-serif; fill: #043E03; }
+    .subtext { font: normal 12px sans-serif; fill: #0A5C08; }
+    .ball { fill: #FF6B00; }
+  </style>
+  <circle class="ball" cx="30" cy="30" r="20"/>
+  <path fill="white" d="M20,30 L40,30 M30,20 L30,40"/>
+  <text x="60" y="35" class="text">LapangKuy</text>
+  <text x="60" y="50" class="subtext">Booking Lapangan Jadi Mudah</text>
+</svg>

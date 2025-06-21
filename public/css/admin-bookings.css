@@ -1,0 +1,125 @@
+/* Custom styles for admin booking page */
+
+/* Card styles */
+.border-left-primary {
+    border-left: 4px solid #4e73df;
+}
+
+.border-left-success {
+    border-left: 4px solid #1cc88a;
+}
+
+.border-left-warning {
+    border-left: 4px solid #f6c23e;
+}
+
+.border-left-danger {
+    border-left: 4px solid #e74a3b;
+}
+
+/* Booking code style */
+.booking-code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    background-color: #f1f5f9;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: #334155;
+}
+
+/* Tab navigation styles */
+.card-header-tabs {
+    margin-right: 0;
+    margin-bottom: -1px;
+    margin-left: 0;
+}
+
+.card-header-tabs .nav-link {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+}
+
+.card-header-tabs .nav-link.active {
+    color: #4e73df;
+    border-bottom: 2px solid #4e73df;
+}
+
+.card-header-tabs .nav-link:hover:not(.active) {
+    color: #3a3b45;
+    background-color: rgba(78, 115, 223, 0.1);
+}
+
+/* Table styles */
+.table th {
+    background-color: #f8f9fc;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #4e73df;
+    white-space: nowrap;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #e3e6f0;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* Card shadow and styling */
+.card {
+    border: none;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.card-header h6 {
+    color: #4e73df;
+    font-weight: 700;
+}
+
+/* Empty state styling */
+.empty-state {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+}
+
+.empty-state i {
+    color: #d1d3e2;
+    margin-bottom: 1rem;
+}
+
+.empty-state h5 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .card-header-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    
+    .table-responsive {
+        min-height: 300px;
+    }
+}

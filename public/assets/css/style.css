@@ -1,0 +1,128 @@
+/* Core styles for LapangKuy */
+body { 
+    font-family: 'Poppins', sans-serif;
+    color: #343A40;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+/* Fix for Bootstrap elements */
+a:hover {
+    text-decoration: none;
+}
+
+.card, .btn {
+    border-radius: 0.5rem;
+}
+
+.btn {
+    padding: 0.6rem 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Transitions */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Additional utilities */
+.shadow-hover:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-5px);
+}
+
+.text-primary {
+    color: #043E03 !important;
+}
+
+.bg-primary {
+    background-color: #043E03 !important;
+}
+
+.btn-primary {
+    background-color: #043E03 !important;
+    border-color: #043E03 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0A5C08 !important;
+    border-color: #0A5C08 !important;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto;
+}
+
+footer h5, footer h6 {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.footer-links li a {
+    transition: color 0.3s ease;
+    opacity: 0.8;
+}
+
+.footer-links li a:hover {
+    color: #28a745 !important;
+    opacity: 1;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+}
+
+.social-icon:hover {
+    background-color: #28a745;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.contact-info i {
+    color: #28a745;
+    width: 20px;
+}
+
+footer small {
+    opacity: 0.8;
+}
+
+/* Responsive footer adjustments */
+@media (max-width: 768px) {
+    footer .row {
+        text-align: center;
+    }
+    
+    .social-links .d-flex {
+        justify-content: center;
+    }
+    
+    footer .col-6 {
+        margin-bottom: 2rem;
+    }
+}

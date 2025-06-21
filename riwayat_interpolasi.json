@@ -1,0 +1,59 @@
+[
+  {
+    "timestamp": "2025-06-14 23:14:35",
+    "method": "Interpolasi Sederhana",
+    "data": {
+      "x1": 8.0,
+      "y1": 15200.0,
+      "x2": 12.0,
+      "y2": 15800.0,
+      "x_target": 10.0,
+      "result": 15500.0,
+      "method_type": "Interpolasi",
+      "slope": 150.0,
+      "intercept": 14000.0
+    }
+  },
+  {
+    "timestamp": "2025-06-14 23:14:42",
+    "method": "Interpolasi Sederhana",
+    "data": {
+      "x1": 8.0,
+      "y1": 15200.0,
+      "x2": 12.0,
+      "y2": 15800.0,
+      "x_target": 10.0,
+      "result": 15500.0,
+      "method_type": "Interpolasi",
+      "slope": 150.0,
+      "intercept": 14000.0
+    }
+  },
+  {
+    "jam1": 8.0,
+    "harga1": 15200.0,
+    "jam2": 11.0,
+    "harga2": 15650.0,
+    "jam_prediksi": 10.0,
+    "hasil": 15500.0,
+    "interpolasi": true
+  },
+  {
+    "jam1": 8.0,
+    "harga1": 15200.0,
+    "jam2": 11.0,
+    "harga2": 15650.0,
+    "jam_prediksi": 10.0,
+    "hasil": 15500.0,
+    "interpolasi": true
+  },
+  {
+    "jam1": 8.0,
+    "harga1": 15200.0,
+    "jam2": 11.0,
+    "harga2": 15650.0,
+    "jam_prediksi": 10.0,
+    "hasil": 15500.0,
+    "interpolasi": true
+  }
+]

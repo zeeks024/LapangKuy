@@ -1,0 +1,209 @@
+/* Footer Styles for LapangKuy */
+
+/* Main footer container */
+footer {
+    margin-top: auto;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer headings */
+footer h5, footer h6 {
+    color: #ffffff !important;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer links styling */
+.footer-links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.footer-links li a:hover {
+    color: #28a745 !important;
+    transform: translateX(5px);
+}
+
+.footer-links li a::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #28a745;
+    transition: width 0.3s ease;
+}
+
+.footer-links li a:hover::before {
+    width: 10px;
+}
+
+/* Social media icons */
+.social-links h6 {
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px);
+}
+
+.social-icon:hover {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: #ffffff !important;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(40, 167, 69, 0.3);
+}
+
+/* Contact information */
+.contact-info {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-info i {
+    color: #28a745;
+    width: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contact-info .d-flex {
+    margin-bottom: 0.75rem;
+}
+
+/* Footer bottom section */
+footer hr {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    margin: 2rem 0 1rem 0;
+}
+
+footer .py-3 {
+    padding: 1.5rem 0 !important;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+}
+
+footer .text-muted {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+footer .fa-heart {
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0%, 50%, 100% { transform: scale(1); }
+    25%, 75% { transform: scale(1.1); }
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    footer .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    
+    footer .row > div {
+        margin-bottom: 2rem;
+    }
+    
+    .social-links .d-flex {
+        justify-content: center;
+    }
+    
+    .contact-info .d-flex {
+        justify-content: center;
+    }
+    
+    footer .col-6 {
+        margin-bottom: 2rem;
+    }
+    
+    footer .text-md-start,
+    footer .text-md-end {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    footer h5 {
+        font-size: 1.3rem;
+    }
+    
+    footer h6 {
+        font-size: 1rem;
+    }
+    
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    footer .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+/* Additional hover effects */
+footer .col-lg-4:first-child:hover,
+footer .col-lg-2:hover,
+footer .col-lg-4:last-child:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+/* Link accessibility */
+footer a:focus {
+    outline: 2px solid #28a745;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    footer {
+        display: none;
+    }
+}

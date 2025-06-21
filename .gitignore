@@ -21,3 +21,31 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archive files
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# Log files
+*.log
+
+# Sensitive data
+*.key
+*.pem
+*.p12
+secrets.txt
+config/secrets.php
+
+# Project specific - prevent stunting project files
+project_stunting*
+*copy*
+*Copy*

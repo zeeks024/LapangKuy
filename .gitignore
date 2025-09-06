@@ -49,3 +49,56 @@ config/secrets.php
 project_stunting*
 *copy*
 *Copy*
+
+# Deployment and debugging files
+*.ps1
+deploy.sh
+setup-env.sh
+debug*.php
+diagnose*.php
+error-diagnostic.php
+emergency-fix.php
+hosting-check.php
+payment-diagnosis.php
+quick-diagnostic.php
+fix-*.php
+generate-*.php
+test-*.php
+check-layout.php
+
+# Troubleshooting documentation
+ANALISIS_*.md
+CARA_*.md
+DEPLOYMENT_*.md
+DIAGNOSIS_*.md
+ERROR_*.md
+FIX_*.md
+HOSTING_*.md
+SETUP_*.md
+SOLUSI_*.md
+SSL_*.md
+SUCCESS_*.md
+TROUBLESHOOT_*.md
+URGENT_*.md
+README_DEPLOYMENT.md
+FOOTER_*.md
+IDENTIFIKASI_*.md
+
+# cPanel and hosting specific files
+index-cpanel.php
+index-final-cpanel.php
+index.cpanel.php
+.env.cpanel
+htaccess-cpanel.txt
+htaccess-for-hosting.txt
+env-minimal-fix.txt
+env-production-ready.txt
+fix-env-cpanel.md
+.htaccess.hosting
+
+# Temporary and interpolation files
+riwayat_interpolasi.json
+
+# Backup and debug files
+*_backup.php
+*DebugMiddleware.php
